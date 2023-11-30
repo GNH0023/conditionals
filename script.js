@@ -33,10 +33,11 @@ sends admins to admin page
 */
 
 /*
- !I chose to try to make the website actually function in the way that the assignment explained instead of
+ !I also chose to try to make the website actually function in the way that the assignment explained instead of
  !just console logging the outcomes
+ *if you want to run this just uncomment this and make the other code into a comment
  */
-
+/*
 //redirect to admin side
 
 function adminSiteRedirect() {
@@ -59,9 +60,8 @@ if (userIsAdmin == true) {
 } else {
     goAway();
 }
+*/
 
-//? if you want the solution to the acutal assignment you can comment out the above code and uncomment this
-/*
 if (userIsAdmin == true) {
     let goToPage = "admin";
     console.log(goToPage);
@@ -72,4 +72,3 @@ if (userIsAdmin == true) {
 } else {
     console.log("something went wrong");
 }
-*/
